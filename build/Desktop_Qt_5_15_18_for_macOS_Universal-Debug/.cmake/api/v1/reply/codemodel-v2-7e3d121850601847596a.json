@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3d2b133b183cb684498a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DashboardApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardApp-Debug-a945d6346f698ee17b02.json",
+					"name" : "DashboardApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardApp_autogen-Debug-11290eb3fe6cb07d6b8a.json",
+					"name" : "DashboardApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardApp_autogen_timestamp_deps-Debug-9e9636bf0faff978fe77.json",
+					"name" : "DashboardApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/saifvan/DashboardApp/build/Desktop_Qt_5_15_18_for_macOS_Universal-Debug",
+		"source" : "/Users/saifvan/DashboardApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,27 @@
+# ninja log v6
+660	1695	1745857658210636439	CMakeFiles/DashboardApp.dir/main.cpp.o	3eb7af3a75ea39f3
+23	64	1745857657572778904	/Users/saifvan/DashboardApp/build/Desktop_Qt_5_15_18_for_macOS_Universal-Debug/DashboardApp_autogen/timestamp	46e37ca054e9a35b
+743	10317	1745860103241839010	CMakeFiles/DashboardApp.dir/DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp.o	fa30b66002f87262
+93	743	1745860103236237982	/Users/saifvan/DashboardApp/build/Desktop_Qt_5_15_18_for_macOS_Universal-Debug/DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp	4ad5285af00e531c
+23	64	1745857657572778904	/Users/saifvan/DashboardApp/build/Desktop_Qt_5_15_18_for_macOS_Universal-Debug/DashboardApp_autogen/mocs_compilation.cpp	46e37ca054e9a35b
+237	289	1742502319983341703	CMakeFiles/DashboardApp.dir/DashboardApp_autogen/mocs_compilation.cpp.o	25b8361041df00e0
+23	64	1745857657572778904	DashboardApp_autogen/mocs_compilation.cpp	46e37ca054e9a35b
+10319	10494	1745860112817623355	DashboardApp.app/Contents/MacOS/DashboardApp	677ca4faa4f351c2
+93	743	1745860103236237982	DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp	4ad5285af00e531c
+23	64	1745857657572778904	DashboardApp_autogen/timestamp	46e37ca054e9a35b
+22	68	1745860439353068514	DashboardApp_autogen/timestamp	46e37ca054e9a35b
+22	68	1745860439353068514	DashboardApp_autogen/mocs_compilation.cpp	46e37ca054e9a35b
+22	68	1745860439353068514	/Users/saifvan/DashboardApp/build/Desktop_Qt_5_15_18_for_macOS_Universal-Debug/DashboardApp_autogen/timestamp	46e37ca054e9a35b
+22	68	1745860439353068514	/Users/saifvan/DashboardApp/build/Desktop_Qt_5_15_18_for_macOS_Universal-Debug/DashboardApp_autogen/mocs_compilation.cpp	46e37ca054e9a35b
+68	675	1745860440001490660	DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp	4ad5285af00e531c
+68	675	1745860440001490660	/Users/saifvan/DashboardApp/build/Desktop_Qt_5_15_18_for_macOS_Universal-Debug/DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp	4ad5285af00e531c
+675	10063	1745860440005337012	CMakeFiles/DashboardApp.dir/DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp.o	fa30b66002f87262
+10063	10242	1745860449393676840	DashboardApp.app/Contents/MacOS/DashboardApp	677ca4faa4f351c2
+32	645	1745860545139259895	DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp	4ad5285af00e531c
+32	645	1745860545139259895	/Users/saifvan/DashboardApp/build/Desktop_Qt_5_15_18_for_macOS_Universal-Debug/DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp	4ad5285af00e531c
+645	10288	1745860545146017387	CMakeFiles/DashboardApp.dir/DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp.o	fa30b66002f87262
+10288	10466	1745860554789498694	DashboardApp.app/Contents/MacOS/DashboardApp	677ca4faa4f351c2
+33	672	1745861351759674309	DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp	4ad5285af00e531c
+33	672	1745861351759674309	/Users/saifvan/DashboardApp/build/Desktop_Qt_5_15_18_for_macOS_Universal-Debug/DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp	4ad5285af00e531c
+673	10061	1745861351763787955	CMakeFiles/DashboardApp.dir/DashboardApp_autogen/EWIEGA46WW/qrc_qml.cpp.o	fa30b66002f87262
+10062	10244	1745861361152787828	DashboardApp.app/Contents/MacOS/DashboardApp	677ca4faa4f351c2

@@ -1,0 +1,206 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>SideGauge.qml</file>
+        <file>Hud.qml</file>
+        <file>assets/background.png</file>
+        <file>assets/background.svg</file>
+        <file>assets/car.png</file>
+        <file>assets/Car.svg</file>
+        <file>assets/Dashboard.svg</file>
+        <file>assets/FirstRightIcon_grey.svg</file>
+        <file>assets/FirstRightIcon.svg</file>
+        <file>assets/FourthRightIcon_red.svg</file>
+        <file>assets/FourthRightIcon.svg</file>
+        <file>assets/fuel.svg</file>
+        <file>assets/img.txt</file>
+        <file>assets/Light_White.svg</file>
+        <file>assets/Lights.svg</file>
+        <file>assets/Low beam headlights.svg</file>
+        <file>assets/Low_beam_headlights_white.svg</file>
+        <file>assets/Model 3.png</file>
+        <file>assets/Model 3.svg</file>
+        <file>assets/needle.svg</file>
+        <file>assets/newcar.svg</file>
+        <file>assets/Parking lights.svg</file>
+        <file>assets/Parking_lights_white.svg</file>
+        <file>assets/Rare fog lights.svg</file>
+        <file>assets/Rare_fog_lights_red.svg</file>
+        <file>assets/road.svg</file>
+        <file>assets/SecondRightIcon_red.svg</file>
+        <file>assets/SecondRightIcon.svg</file>
+        <file>assets/speedometer.svg</file>
+        <file>assets/thirdRightIcon_red.svg</file>
+        <file>assets/thirdRightIcon.svg</file>
+        <file>assets/tickmark.svg</file>
+        <file>assets/Vector 1.svg</file>
+        <file>assets/Vector 2.svg</file>
+        <file>assets/Vector 70.svg</file>
+        <file>img/background.png</file>
+        <file>img/background.svg</file>
+        <file>img/cirlcle.svg</file>
+        <file>img/Ellipse 1.svg</file>
+        <file>img/Ellipse 5.svg</file>
+        <file>img/Ellipse 6.svg</file>
+        <file>img/img.txt</file>
+        <file>img/maxLimit.svg</file>
+        <file>img/needle.svg</file>
+        <file>img/Rectangle 4.svg</file>
+        <file>img/ring.svg</file>
+        <file>img/sub.svg</file>
+        <file>img/Subtract.svg</file>
+        <file>img/tickmark.svg</file>
+        <file>icons/light/bxs_music.svg</file>
+        <file>icons/light/Car_Icon.svg</file>
+        <file>icons/light/clarity_settings-solid.svg</file>
+        <file>icons/light/entypo_home.svg</file>
+        <file>icons/light/ep_menu.svg</file>
+        <file>icons/light/eva_phone-call-fill.svg</file>
+        <file>icons/light/light.txt</file>
+        <file>icons/Background.png</file>
+        <file>icons/Base.svg</file>
+        <file>icons/bxs_music.svg</file>
+        <file>icons/car.png</file>
+        <file>icons/Car.svg</file>
+        <file>icons/Car_icon.svg</file>
+        <file>icons/clarity_settings-solid.svg</file>
+        <file>icons/entypo_home.svg</file>
+        <file>icons/ep_menu.svg</file>
+        <file>icons/eva_phone-call-fill.svg</file>
+        <file>icons/Headlights.svg</file>
+        <file>icons/icons.txt</file>
+        <file>icons/Navigation.png</file>
+        <file>icons/Navigation.svg</file>
+        <file>icons/Top Navigation.svg</file>
+        <file>icons/Vector 1.svg</file>
+        <file>icons/Vector 2.svg</file>
+        <file>icons/Vector.svg</file>
+        <file>img/Model 3.png</file>
+        <file>Speedometer.qml</file>
+        <file>Dashboard-Design/Design Img/Dash Board/Dash-board-Gauge-Cluster-RPM.png</file>
+        <file>Dashboard-Design/Design Img/Dash Board/Dash-board-Gauge-Cluster-Speed.png</file>
+        <file>Dashboard-Design/Design Img/Dash Board/Dash-Board-IMG.png</file>
+        <file>Dashboard-Design/Design Img/Dash Board/Dash-board-Vehicle-Center-Line.png</file>
+        <file>Dashboard-Design/Design Img/Font/font/demo.html</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Bold.eot</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Bold.ttf</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Bold.woff</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Bold.woff2</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Light.eot</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Light.ttf</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Light.woff</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Light.woff2</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Medium.eot</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Medium.ttf</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Medium.woff</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Medium.woff2</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Regular.eot</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Regular.ttf</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Regular.woff</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansHeadOffice-Regular.woff2</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Bold.eot</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Bold.ttf</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Bold.woff</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Bold.woff2</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-BoldItalic.eot</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-BoldItalic.ttf</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-BoldItalic.woff</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-BoldItalic.woff2</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Italic.eot</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Italic.ttf</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Italic.woff</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Italic.woff2</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Medium.eot</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Medium.ttf</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Medium.woff</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Medium.woff2</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-MediumItalic.eot</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-MediumItalic.ttf</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-MediumItalic.woff</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-MediumItalic.woff2</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Regular.eot</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Regular.ttf</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Regular.woff</file>
+        <file>Dashboard-Design/Design Img/Font/font/HyundaiSansTextOffice-Regular.woff2</file>
+        <file>Dashboard-Design/Design Img/Font/font/stylesheet.css</file>
+        <file>Dashboard-Design/Design Img/HUD/HUD-IMG.png</file>
+        <file>Dashboard-Design/Design Img/HUD/HUD-Line.png</file>
+        <file>Dashboard-Design/Design Img/HUD/HUD-Top-Line.png</file>
+        <file>Dashboard-Design/Design Img/HUD/HUD-Vehicle-Center-Line.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/A. Caution Zone/Caution-zone-example.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/A. Caution Zone/Caution-zone-example2.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/A. Caution Zone/Caution-zone-white.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/A. Caution Zone/Caution-zone-yellow.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit-100.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit-110.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit-120.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit-30.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit-40.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit-50.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit-60.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit-70.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit-80.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit-90.png</file>
+        <file>Dashboard-Design/Design Img/Informations/1. Safety Information/B. Speed Limit/Speed-Limit.png</file>
+        <file>Dashboard-Design/Design Img/Informations/2. Navigation Information/A. Directions/Left-Direction.png</file>
+        <file>Dashboard-Design/Design Img/Informations/2. Navigation Information/A. Directions/Right-Direction.png</file>
+        <file>Dashboard-Design/Design Img/Informations/2. Navigation Information/A. Directions/Straight-Direction.png</file>
+        <file>Dashboard-Design/Design Img/Informations/2. Navigation Information/B. Destination/Destination text.PNG</file>
+        <file>Dashboard-Design/Design Img/Informations/3. Speed Information/A. Current.png</file>
+        <file>Dashboard-Design/Design Img/Informations/4. Distance Information/A. Distance to Empty/Distance-to-Empty-Full.png</file>
+        <file>Dashboard-Design/Design Img/Informations/4. Distance Information/A. Distance to Empty/Distance-to-Empty-Low.png</file>
+        <file>Dashboard-Design/Design Img/Informations/4. Distance Information/A. Distance to Empty/Distance-to-Empty-Middle.png</file>
+        <file>Dashboard-Design/Design Img/Informations/4. Distance Information/A. Distance to Empty/mile.png</file>
+        <file>Dashboard-Design/Design Img/Informations/4. Distance Information/B. Distance to Destination/mile.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/ABS_warning_indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Break_warning_indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Charge_warning_indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Coolant_temperature_warning_indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Engine_oil_warning_indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Engine_warning_indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Fuel_warning_indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/TPMS_warning_indicato.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Washer_fluid_warning_indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/B. Vehicle Status indicator/Eco_mode_indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/B. Vehicle Status indicator/Fog_Light_Indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/B. Vehicle Status indicator/High_Beam_Indicator-.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/B. Vehicle Status indicator/Position_Lights_Indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/5. Indicator Information/B. Vehicle Status indicator/Turn_Signal_Indicator_Hazard_Warning_Light.png</file>
+        <file>Dashboard-Design/Design Img/Informations/Gear-mode.png</file>
+        <file>Dashboard-Design/Design Img/Informations/Time_Weather-Information.png</file>
+        <file>Dashboard-Design/Design Img/Informations/Vehicle Img.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Bolume.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Bottom-Down.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Bottom-Menu-10.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Bottom-Menu-3.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Bottom-Menu-5.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Bottom-Menu-6.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Bottom-Menu-7.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Bottom-Menu-8.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Bottom-Menu-9.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Bottom-Up.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-IMG.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Navigate-Bar.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Navigate.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Seat-Heat-Left.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Seat-Heat-Right.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Top-Line.png</file>
+        <file>Dashboard-Design/Design Img/IVI/IVI-Vehicle-Center-Line.png</file>
+        <file>Dashboard-Design/List of Driving Event.docx</file>
+        <file>Dashboard-Design/Design Img/Informations/fuel-indicator.png</file>
+        <file>Dashboard-Design/Design Img/Informations/weather-clear.webp</file>
+        <file>Dashboard-Design/Design Img/Informations/weather-cloudy.png</file>
+        <file>Dashboard-Design/Design Img/Informations/weather-rainy.png</file>
+        <file>Dashboard-Design/Design Img/Informations/weather-clear.png</file>
+        <file>Dashboard-Design/Design Img/Informations/green-traffic.jpg</file>
+        <file>Dashboard-Design/Design Img/Informations/red-traffic.jpg</file>
+        <file>Dashboard-Design/Design Img/Informations/red-traffic.png</file>
+        <file>Dashboard-Design/Design Img/Informations/stop.png</file>
+        <file>Dashboard-Design/Design Img/Informations/green-icon.png</file>
+        <file>Dashboard-Design/Design Img/Informations/red-icon.png</file>
+        <file>Dashboard-Design/Design Img/Dash Board/Dash-board-Vehicle-Center-Line-left.png</file>
+        <file>Dashboard-Design/Design Img/Dash Board/Dash-board-Vehicle-Center-Line-right.png</file>
+        <file>Dashboard-Design/Design Img/HUD/HUD-Vehicle-Center-Line-left.png</file>
+        <file>Dashboard-Design/Design Img/HUD/HUD-Vehicle-Center-Line-right.png</file>
+    </qresource>
+</RCC>
