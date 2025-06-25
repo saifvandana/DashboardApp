@@ -23,7 +23,7 @@ ApplicationWindow {
     property bool offroad: false
     property string drive_mode: "D"
     property string fuel_km: "0"
-    property string speedLimt: " "
+    property string speedLimt: ""
     property real speedLimitDistance: 0
     property string trafficState: ""
     property real trafficDistance: 0
@@ -34,10 +34,23 @@ ApplicationWindow {
     property bool rightDirection: false
     property bool straightDirection: false
     property real temperature: 0
+    property string turnSignal: ""
+    property string distanceToEmpty: ""
+    property bool fogLight: true
+    property bool highBeam: true
+    property bool ecoMode: true
+    property bool tpms: true
+    property bool fuelWarning: true
+    property bool engineWarning: false
+    property bool washerFluidWarning: false
+    property bool hazardIndicator: false
+    property real turnSignalDistance: 0
+    property bool route_completed: false
     property string currentTime: "12:00"
     property string weatherCondition: "rain"
-    property string crossingDistance: ""
-    property string pedestrianDistance: ""
+    property string crossingDistance: " "
+    // property string pedestrianDistance: ""
+    property string constructionDistance: " "
     property string stopDistance: ""
     property bool connected: false
 
@@ -98,18 +111,20 @@ ApplicationWindow {
     }
 
     function getLaneImg() {
-        if (!inLane){
-            if (right_lane_departure) {
-                return "qrc:/Dashboard-Design/Design Img/HUD/HUD-Vehicle-Center-Line-right.png"
-            }
-            else {
-                return "qrc:/Dashboard-Design/Design Img/HUD/HUD-Vehicle-Center-Line-left.png"
-            }
+        return "qrc:/Dashboard-Design/Design Img/Dash Board/Dash-board-Vehicle-Center-Line.png"
 
-        }
-        else {
-            return "qrc:/Dashboard-Design/Design Img/HUD/HUD-Vehicle-Center-Line.png"
-        }
+        // if (!inLane){
+        //     if (right_lane_departure) {
+        //         return "qrc:/Dashboard-Design/Design Img/Dash Board/Dash-board-Vehicle-Center-Line-right.png"
+        //     }
+        //     else {
+        //         return "qrc:/Dashboard-Design/Design Img/Dash Board/Dash-board-Vehicle-Center-Line-left.png"
+        //     }
+
+        // }
+        // else {
+        //     return "qrc:/Dashboard-Design/Design Img/Dash Board/Dash-board-Vehicle-Center-Line.png"
+        // }
     }
 
     function distanceCovered(){
@@ -153,6 +168,29 @@ ApplicationWindow {
                 return "qrc:/Dashboard-Design/Design Img/Informations/red-icon.png";
             default:
                 return "qrc:/Dashboard-Design/Design Img/Informations/green-icon.png";
+        }
+    }
+
+    function getDistanceIcon(distance) {
+        switch (distance.toLowerCase()) {
+            case "middle":
+                return "qrc:/Dashboard-Design/Design Img/Informations/4. Distance Information/A. Distance to Empty/Distance-to-Empty-Middle.png"
+
+            case "full":
+                return "qrc:/Dashboard-Design/Design Img/Informations/4. Distance Information/A. Distance to Empty/Distance-to-Empty-Full.png"
+            default:
+                return "qrc:/Dashboard-Design/Design Img/Informations/4. Distance Information/A. Distance to Empty/Distance-to-Empty-Low.png";
+        }
+    }
+
+    function getNavigationIcon(turn) {
+        switch (turn.toLowerCase()) {
+            case "right":
+                return "qrc:/Dashboard-Design/Design Img/Informations/2. Navigation Information/A. Directions/Right-Direction.png";
+            case "left":
+                return "qrc:/Dashboard-Design/Design Img/Informations/2. Navigation Information/A. Directions/Left-Direction.png";
+            default:
+                return "qrc:/Dashboard-Design/Design Img/Informations/2. Navigation Information/A. Directions/Straight-Direction.png";
         }
     }
 
@@ -250,25 +288,6 @@ ApplicationWindow {
         }
 
         Loader {
-            active: trafficState !== ""  // Only loads when condition is true
-            sourceComponent: ColumnLayout {
-                Image {
-                    source: getTrafficIcon(trafficState)
-                    sourceSize: Qt.size(90,90)
-                }
-
-                Label {
-                    text: parseInt(trafficDistance) + " mi"
-                    font.pixelSize: 28
-                    //font.family: "Sans"
-                    color: "#FFFFFF"
-                    font.bold: Font.Normal
-                    Layout.alignment: Qt.AlignHCenter
-                }
-            }
-        }
-
-        Loader {
             active: crossingDistance !== ""  // Only loads when condition is true
             sourceComponent: ColumnLayout {
                 Image {
@@ -286,6 +305,26 @@ ApplicationWindow {
                 }
             }
         }
+
+        Loader {
+            active: constructionDistance !== ""  // Only loads when condition is true
+            sourceComponent: ColumnLayout {
+                Image {
+                    source: "qrc:/Dashboard-Design/Design Img/Informations/1. Safety Information/A. Caution Zone/construction-zone.webp"
+                    sourceSize: Qt.size(90,90)
+                }
+
+                Label {
+                    text: parseInt(crossingDistance) + " m"
+                    font.pixelSize: 15
+                    //font.family: "Sans"
+                    color: "#FFFFFF"
+                    font.bold: Font.Normal
+                    Layout.alignment: Qt.AlignHCenter
+                }
+            }
+        }
+
 
         Loader {
             active: stopDistance !== ""  // Only loads when condition is true
@@ -318,17 +357,62 @@ ApplicationWindow {
             topMargin: 180
         }
 
-        Image {
-            source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Engine_oil_warning_indicator.png"
-            sourceSize: Qt.size(100,100)
+        Loader {
+            active: fogLight  // Only loads when condition is true
+            sourceComponent: Image {
+                source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/B. Vehicle Status indicator/Fog_Light_Indicator.png"
+                sourceSize: Qt.size(60,60)
+            }
         }
-        Image {
-            source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/ABS_warning_indicator.png"
-            sourceSize: Qt.size(100,100)
+        Loader {
+            active: highBeam
+            sourceComponent: Image {
+                source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/B. Vehicle Status indicator/High_Beam_indicator-.png"
+                sourceSize: Qt.size(60,60)
+            }
         }
-        Image {
-            source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/B. Vehicle Status indicator/Eco_mode_indicator.png"
-            sourceSize: Qt.size(100,100)
+        Loader {
+            active: hazardIndicator
+            sourceComponent: Image {
+                source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/B. Vehicle Status indicator/Turn_Signal_Indicator_Hazard_Warning_Light.png"
+                sourceSize: Qt.size(60,60)
+            }
+        }
+
+        Loader {
+            active: ecoMode
+            sourceComponent: Image {
+                source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/B. Vehicle Status indicator/Eco_mode_indicator.png"
+                sourceSize: Qt.size(80,80)
+            }
+        }
+        Loader {
+            active: tpms
+            sourceComponent: Image {
+                source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/TPMS_warning_indicato.png"
+                sourceSize: Qt.size(80,80)
+            }
+        }
+        Loader {
+            active: fuelWarning
+            sourceComponent: Image {
+                source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Fuel_warning_indicator.png"
+                sourceSize: Qt.size(80,80)
+            }
+        }
+        Loader {
+            active: engineWarning
+            sourceComponent: Image {
+                source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Engine_warning_indicator.png"
+                sourceSize: Qt.size(80,80)
+            }
+        }
+        Loader {
+            active: washerFluidWarning
+            sourceComponent: Image {
+                source: "qrc:/Dashboard-Design/Design Img/Informations/5. Indicator Information/A. Warning indicator/Washer_fluid_warning_indicator.png"
+                sourceSize: Qt.size(80,80)
+            }
         }
     }
 
@@ -341,7 +425,7 @@ ApplicationWindow {
             horizontalCenter: parent.horizontalCenter
         }
         Image {
-            source: "qrc:/Dashboard-Design/Design Img/Informations/2. Navigation Information/A. Directions/Straight-Direction.png"
+            source: getNavigationIcon(turnSignal)
             sourceSize: Qt.size(100,100)
         }
         ColumnLayout {
@@ -431,11 +515,12 @@ ApplicationWindow {
         }
 
         Image {
-            source: "qrc:/Dashboard-Design/Design Img/Informations/4. Distance Information/A. Distance to Empty/Distance-to-Empty-Middle.png"
+            source: getDistanceIcon(distanceToEmpty)
             sourceSize: Qt.size(120,120)
         }
     }
 
+    //lane
     Image {
         anchors{
             horizontalCenter: parent.horizontalCenter
