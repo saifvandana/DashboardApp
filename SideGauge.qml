@@ -231,7 +231,8 @@ CircularGauge {
                 ColumnLayout{
                     anchors.centerIn: parent
                     Label{
-                        text: gauge.value.toFixed(decimalPlace)
+                        // text: gauge.value.toFixed(decimalPlace)//gauge.value.toFixed(decimalPlace)
+                        text: gauge.speedValue.toFixed(decimalPlace)//gauge.value.toFixed(decimalPlace)
                         font.pixelSize: 85
                         // font.family: "Inter"
                         color: "#FFFFFF"

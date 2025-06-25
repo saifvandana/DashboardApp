@@ -179,7 +179,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 
 //The product will be built against the headers and libraries located
 // inside the indicated SDK.
-CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
+CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk
 
 //No help, variable specified on the command line.
 CMAKE_PREFIX_PATH:PATH=/Users/saifvan/Qt/5.15.18/macos
@@ -477,5 +477,5 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/tmp
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 

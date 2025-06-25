@@ -179,7 +179,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 
 //The product will be built against the headers and libraries located
 // inside the indicated SDK.
-CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
+CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk
 
 //No help, variable specified on the command line.
 CMAKE_PREFIX_PATH:PATH=/Users/saifvan/Qt/5.15.18/macos
